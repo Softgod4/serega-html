@@ -1,0 +1,20 @@
+@media (max-width: 769px) {
+  .our-services {
+    .our-services__blocks {
+      display: flex;
+      flex-direction: column !important;
+
+      .our-services__blocks-item {
+        max-width: 100% !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .features {
+    article:last-child {
+      max-width: 100%;
+    }
+  }
+}
