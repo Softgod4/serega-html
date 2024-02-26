@@ -15,6 +15,9 @@ nav {
   background-color: #2d2d30;
   color: var(--grey);
   .container {
+    .navbar-toggler {
+      background-color: var(--white-grey) !important;
+    }
     .navbar-brand {
 
       display: flex;
@@ -53,7 +56,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
 
-  .header-bg__text {
+  &__text {
     margin-top: 30vh;
     color: var(--white);
     text-align: center;
@@ -106,7 +109,7 @@ nav {
   .our-services__blocks {
     width: 100%;
 
-    .our-services__blocks-item {
+    &-item {
       padding: 25px 5px;
       transition: all 0.5s;
       max-width: 22.5%;
@@ -205,7 +208,7 @@ nav {
       font-size: 12.5pt;
       margin: 21px 0px;
     } 
-    .works-text__btn {
+    &__btn {
       transition: all 0.5s;
       margin-top: 45px;
       background-color: transparent;
@@ -224,5 +227,94 @@ nav {
   }
   .works-cards {
     width: 75%;
+    .col {
+      cursor: pointer;
+    }
+  }
+}
+
+.customers {
+  margin-bottom: 0px !important;
+  img {
+    margin: 58px 0px;
+  }
+  img:nth-child(1) {
+    margin-left: 30%;
+  }
+  img:nth-child(2) {
+    margin-right: 30%;
+  }
+  img:nth-child(3) {
+    margin-left: 30%;
+  }
+}
+
+.blog {
+  margin-top: 0px !important;
+  &-text {
+    width: 20%;
+    h2 {
+      font-size: 14pt;
+      color: var(--dark-grey); 
+      font-weight: 600;
+      padding-bottom: 8px;
+    }
+    p {
+      span {
+        font-size: 14pt;
+      }
+      color: var(--white-grey);
+      font-size: 12.5pt;
+      margin: 21px 0px;
+    }
+    button {
+      margin-top: 29px;
+      background-color: var(--btn-hover);
+      border-radius: 4px;
+      padding: 16px 24px;
+      color: var(--white);
+      font-weight: bold;
+
+      &:hover {
+        background-color: var(--dark-grey);
+        color: var(--white);
+      }
+    }
+  }
+  .blog-cards {
+    width: 75%;
+
+    &__item {
+      background-color: white;
+      margin: 10px 25px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      img {
+        width: 100%;
+      }
+      article {
+        padding: 0px 15px;
+        h3 {
+          font-size: 12.5pt;
+          color: var(--dark-grey);
+          font-weight: bold;
+          margin: 25px 0px;
+        }
+        p {
+          font-size: 11.5pt;
+          color: var(--white-grey);
+          padding-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #333333;
+  padding-top: 44px;
+  padding-bottom: 22px;
+  p {
+    color: var(--white-grey);
+    font-size: 12pt;
   }
 }

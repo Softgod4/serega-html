@@ -12,6 +12,9 @@ nav {
   background-color: #2d2d30;
   color: var(--grey);
 }
+nav .container .navbar-toggler {
+  background-color: var(--white-grey) !important;
+}
 nav .container .navbar-brand {
   display: flex;
   justify-content: center;
@@ -41,20 +44,20 @@ nav .container #navbarNavAltMarkup .navbar-nav .nav-link {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.header-bg .header-bg__text {
+.header-bg__text {
   margin-top: 30vh;
   color: var(--white);
   text-align: center;
 }
-.header-bg .header-bg__text h1 {
+.header-bg__text h1 {
   font-size: 32pt;
   padding-bottom: 20px;
 }
-.header-bg .header-bg__text p {
+.header-bg__text p {
   font-size: 22pt;
   padding-bottom: 20px;
 }
-.header-bg .header-bg__text button {
+.header-bg__text button {
   padding: 10px 22px;
   border: 1.5px solid var(--white);
   font-size: 10pt;
@@ -63,7 +66,7 @@ nav .container #navbarNavAltMarkup .navbar-nav .nav-link {
   font-weight: 200;
   margin-bottom: 30vh;
 }
-.header-bg .header-bg__text button:hover {
+.header-bg__text button:hover {
   background-color: white;
   color: black;
 }
@@ -85,33 +88,33 @@ nav .container #navbarNavAltMarkup .navbar-nav .nav-link {
 .our-services .our-services__blocks {
   width: 100%;
 }
-.our-services .our-services__blocks .our-services__blocks-item {
+.our-services .our-services__blocks-item {
   padding: 25px 5px;
   transition: all 0.5s;
   max-width: 22.5%;
   height: auto;
   cursor: pointer;
 }
-.our-services .our-services__blocks .our-services__blocks-item .shape {
+.our-services .our-services__blocks-item .shape {
   width: 50px;
   height: 1px;
   background-color: #dbdbdb;
   margin: 32px 0px;
 }
-.our-services .our-services__blocks .our-services__blocks-item article {
+.our-services .our-services__blocks-item article {
   text-align: center;
 }
-.our-services .our-services__blocks .our-services__blocks-item article h3 {
+.our-services .our-services__blocks-item article h3 {
   color: var(--dark-grey);
   font-size: 13.5pt;
   font-weight: bold;
   padding-bottom: 20px;
 }
-.our-services .our-services__blocks .our-services__blocks-item article p {
+.our-services .our-services__blocks-item article p {
   font-family: "Lato", sans-serif;
   font-size: 12.5pt;
 }
-.our-services .our-services__blocks .our-services__blocks-item:hover {
+.our-services .our-services__blocks-item:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
@@ -179,7 +182,7 @@ nav .container #navbarNavAltMarkup .navbar-nav .nav-link {
 .works .works-text p span {
   font-size: 14pt;
 }
-.works .works-text .works-text__btn {
+.works .works-text__btn {
   transition: all 0.5s;
   margin-top: 45px;
   background-color: transparent;
@@ -190,10 +193,97 @@ nav .container #navbarNavAltMarkup .navbar-nav .nav-link {
   padding: 12px 14px;
   font-size: 11pt;
 }
-.works .works-text .works-text__btn:hover {
+.works .works-text__btn:hover {
   background: var(--btn-hover);
   color: white;
 }
 .works .works-cards {
   width: 75%;
+}
+.works .works-cards .col {
+  cursor: pointer;
+}
+
+.customers {
+  margin-bottom: 0px !important;
+}
+.customers img {
+  margin: 58px 0px;
+}
+.customers img:nth-child(1) {
+  margin-left: 30%;
+}
+.customers img:nth-child(2) {
+  margin-right: 30%;
+}
+.customers img:nth-child(3) {
+  margin-left: 30%;
+}
+
+.blog {
+  margin-top: 0px !important;
+}
+.blog-text {
+  width: 20%;
+}
+.blog-text h2 {
+  font-size: 14pt;
+  color: var(--dark-grey);
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+.blog-text p {
+  color: var(--white-grey);
+  font-size: 12.5pt;
+  margin: 21px 0px;
+}
+.blog-text p span {
+  font-size: 14pt;
+}
+.blog-text button {
+  margin-top: 29px;
+  background-color: var(--btn-hover);
+  border-radius: 4px;
+  padding: 16px 24px;
+  color: var(--white);
+  font-weight: bold;
+}
+.blog-text button:hover {
+  background-color: var(--dark-grey);
+  color: var(--white);
+}
+.blog .blog-cards {
+  width: 75%;
+}
+.blog .blog-cards__item {
+  background-color: white;
+  margin: 10px 25px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.blog .blog-cards__item img {
+  width: 100%;
+}
+.blog .blog-cards__item article {
+  padding: 0px 15px;
+}
+.blog .blog-cards__item article h3 {
+  font-size: 12.5pt;
+  color: var(--dark-grey);
+  font-weight: bold;
+  margin: 25px 0px;
+}
+.blog .blog-cards__item article p {
+  font-size: 11.5pt;
+  color: var(--white-grey);
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: #333333;
+  padding-top: 44px;
+  padding-bottom: 22px;
+}
+footer p {
+  color: var(--white-grey);
+  font-size: 12pt;
 }/*# sourceMappingURL=main.css.map */
