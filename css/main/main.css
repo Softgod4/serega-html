@@ -23,7 +23,9 @@ nav .container .navbar-brand {
   font-size: 12pt;
 }
 nav .container .navbar-brand span {
+  font-family: "Sorts Mill Goudy", serif;
   font-size: 28pt;
+  color: #7bb9b3 !important;
 }
 nav .container #navbarNavAltMarkup {
   flex-grow: 0 !important;
@@ -54,6 +56,7 @@ nav .container #navbarNavAltMarkup .navbar-nav .nav-link {
   padding-bottom: 20px;
 }
 .header-bg__text p {
+  font-family: "Sorts Mill Goudy", serif;
   font-size: 22pt;
   padding-bottom: 20px;
 }
@@ -135,6 +138,7 @@ nav .container #navbarNavAltMarkup .navbar-nav .nav-link {
 .features article:first-child p {
   font-size: 14pt;
   color: var(--white-grey);
+  font-family: "Sorts Mill Goudy", serif;
 }
 .features article:last-child {
   max-width: 60%;
@@ -165,24 +169,25 @@ nav .container #navbarNavAltMarkup .navbar-nav .nav-link {
   padding: 80px 0px;
   background: #2d2d30;
 }
-.works .works-text {
+.works-text {
   width: 20%;
 }
-.works .works-text h2 {
+.works-text h2 {
   font-size: 16pt;
   color: #c8c8c8;
   font-weight: 600;
   padding-bottom: 8px;
 }
-.works .works-text p {
+.works-text p {
   color: var(--white-grey);
   font-size: 12.5pt;
   margin: 21px 0px;
 }
-.works .works-text p span {
+.works-text p span {
   font-size: 14pt;
+  font-family: "Sorts Mill Goudy", serif;
 }
-.works .works-text__btn {
+.works-text__btn {
   transition: all 0.5s;
   margin-top: 45px;
   background-color: transparent;
@@ -193,7 +198,7 @@ nav .container #navbarNavAltMarkup .navbar-nav .nav-link {
   padding: 12px 14px;
   font-size: 11pt;
 }
-.works .works-text__btn:hover {
+.works-text__btn:hover {
   background: var(--btn-hover);
   color: white;
 }
@@ -204,20 +209,88 @@ nav .container #navbarNavAltMarkup .navbar-nav .nav-link {
   cursor: pointer;
 }
 
-.customers {
-  margin-bottom: 0px !important;
+.customers .happy-customers h3 {
+  font-size: 15pt;
+  color: var(--dark-grey);
+  font-weight: bold;
 }
-.customers img {
-  margin: 58px 0px;
+.customers .happy-customers p {
+  font-size: 14pt;
+  padding-top: 5px;
+  color: var(--white-grey);
+  font-weight: 400;
 }
-.customers img:nth-child(1) {
-  margin-left: 30%;
+.customers .reb {
+  margin: 51px 0px;
 }
-.customers img:nth-child(2) {
-  margin-right: 30%;
+.customers .reb article h3 {
+  font-size: 14pt;
+  color: var(--dark-grey);
+  font-weight: bold;
 }
-.customers img:nth-child(3) {
-  margin-left: 30%;
+.customers .reb article p {
+  color: var(--white-grey);
+  font-size: 12pt;
+  padding-top: 6px;
+  font-family: "Sorts Mill Goudy", serif;
+}
+.customers .reb img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.customers .reb .cloud {
+  width: 45%;
+}
+.customers .reb .cloud .cloud-span {
+  width: 15px;
+  height: 25px;
+  background-color: #dbdbdb;
+  -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
+          clip-path: polygon(100% 0, 0 50%, 100% 100%);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-bottom: 35px;
+}
+.customers .reb .cloud .cloud-span span {
+  margin-left: 1.9px;
+  display: block;
+  width: 13px;
+  height: 23px;
+  background-color: var(--white);
+  -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
+          clip-path: polygon(100% 0, 0 50%, 100% 100%);
+}
+.customers .reb .cloud #revers-cloud-span {
+  box-shadow: rgba(0, 0, 0, 0.15) -1.95px 1.95px 2.6px !important;
+}
+.customers .reb .cloud #revers-cloud {
+  width: 15px;
+  height: 25px;
+  background-color: #dbdbdb;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 50%);
+          clip-path: polygon(0 0, 0% 100%, 100% 50%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 35px;
+}
+.customers .reb .cloud #revers-cloud span {
+  display: block;
+  width: 13px;
+  height: 23px;
+  background-color: var(--white);
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 50%);
+          clip-path: polygon(0 0, 0% 100%, 100% 50%);
+}
+.customers .reb .cloud .cloud-window {
+  background-color: var(--white);
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 16px 12px;
+}
+.customers .reb .cloud .cloud-window p {
+  color: var(--white-grey);
+  font-weight: 500;
+  font-size: 12pt;
 }
 
 .blog {
@@ -239,6 +312,7 @@ nav .container #navbarNavAltMarkup .navbar-nav .nav-link {
 }
 .blog-text p span {
   font-size: 14pt;
+  font-family: "Sorts Mill Goudy", serif;
 }
 .blog-text button {
   margin-top: 29px;
